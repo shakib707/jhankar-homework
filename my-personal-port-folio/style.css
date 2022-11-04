@@ -1,0 +1,57 @@
+.name-color{
+    color: rgb(240, 11, 87);
+    font-size: 50px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(242, 16, 54);
+}
+.top-page{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.half-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.top-page img{
+    height: 100%;
+    width: 100%;
+}
+.second-page img{
+    height: 100%;
+    width: 100%;
+}
+.second-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+section{
+  margin-bottom: 40px;
+}
+.third-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.third-page img{
+    height: 100%;
+    width: 100%;
+}
+.text-align{
+    text-align: center;
+}
+.last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
